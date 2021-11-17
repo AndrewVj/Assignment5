@@ -14,6 +14,7 @@
 		25FE976727448842002ACD9B /* Assignment5.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25FE976527448842002ACD9B /* Assignment5.xcdatamodeld */; };
 		25FE976927448846002ACD9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25FE976827448846002ACD9B /* Assets.xcassets */; };
 		25FE976C27448846002ACD9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25FE976A27448846002ACD9B /* LaunchScreen.storyboard */; };
+		25FE977527448896002ACD9B /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25FE977327448896002ACD9B /* Item+CoreDataClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		25FE976827448846002ACD9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25FE976B27448846002ACD9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25FE976D27448846002ACD9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25FE977327448896002ACD9B /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Item+CoreDataClass.swift"; path = "Assignment5/Item+CoreDataClass.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		25FE975027448842002ACD9B = {
 			isa = PBXGroup;
 			children = (
+				25FE977327448896002ACD9B /* Item+CoreDataClass.swift */,
 				25FE975B27448842002ACD9B /* Assignment5 */,
 				25FE975A27448842002ACD9B /* Products */,
 			);
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25FE977527448896002ACD9B /* Item+CoreDataClass.swift in Sources */,
 				25FE976127448842002ACD9B /* ViewController.swift in Sources */,
 				25FE975D27448842002ACD9B /* AppDelegate.swift in Sources */,
 				25FE976727448842002ACD9B /* Assignment5.xcdatamodeld in Sources */,
